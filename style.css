@@ -99,33 +99,33 @@ footer {
     color: #850AE5;
     font-weight: bolder;
 }
-html{
-    background-color: aqua;
-}
 .promo{
     position: fixed;
     top: 250px;
-    right: 20 px;
-    background-color: #fff;
-    border: 2px solid #850AE5;
+    right: 20px;
+    background-color: purple;
+    border:2px dotted white;
     border-radius: 10px;
-    padding: 20px;
     text-align: center;
+}
+.post.special{
+    position: relative;
+}
+h1::before{
+    display: inline-block;
+    vertical-align: middle;
+    withd:30px;
+    height: 30px;
+    background-image: ;
+}
+h1::after{
+    display: inline-block;
+    vertical-align: middle;
+    withd:30px;
+    height: 30px;
 
 }
-h1 ::before{
-    display: inline-block;
-    vertical-align: middle;
-    width: 30px;
-    height: 30px;
-    content: url(https://img.freepik.com/free-photo/elegant-smartphone-composition_23-2149437105.jpg?t=st=1738402832~exp=1738406432~hmac=cee0b9cb51c1cc4aaa5dc668e4e8b9204749c642e9a79a1b7e66016bcabbd4ae&w=360);
-    background-image: url("https://img.freepik.com/free-vector/two-storey-house_1308-16176.jpg?t=st=1739005072~exp=1739008672~hmac=cc2b48a80a6fa2e20b0cc7feabf9c90e32700055f28b5db3d2b23b3c3a6fd4b5&w=740");
-}
-h1 ::after{
-    content: "'";
-    display: inline-block;
-    vertical-align: middle;
-    width: 30px;
-    height: 30px;
-    background-image: url("https://img.freepik.com/free-vector/two-storey-house_1308-16176.jpg?t=st=1739005072~exp=1739008672~hmac=cc2b48a80a6fa2e20b0cc7feabf9c90e32700055f28b5db3d2b23b3c3a6fd4b5&w=740");
+
+.post:hover{
+    background-color: #36bbce;
 }
