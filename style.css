@@ -1,0 +1,131 @@
+body {
+    font-family: sans-serif;
+    background-color: black;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.button {
+    background-color: #36bbce;
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    font-size: 24px;
+    border-radius: 10px;
+    display: block;
+}
+
+nav {
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
+    padding: 25px 100px 25px 95px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-link {
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 36px;
+    margin-top: 45px;
+    margin-bottom: 40px;
+}
+
+.post-text {
+    font-size: 24px;
+}
+
+.info {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.post {
+    background-color: white;
+    padding: 15px 45px 30px 45px;
+    width: 400px;
+    margin: 20px;
+    position: relative;
+}
+
+.article-but {
+    text-decoration: none;
+    background-color: #133aac;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    padding: 10px 75px 10px 75px;
+    display: block;
+}
+
+.full-image {
+    margin: 100px 0px 100px 0px;
+}
+
+.social {
+    display: block;
+    width: 30px;
+}
+
+footer {
+    background-color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 30px 30px 20px 45px;
+}
+
+.footer-text {
+    font-size: 24px;
+    margin-right: 30px;
+}
+
+.footer-text span {
+    color: #850AE5;
+    font-weight: bolder;
+}
+html{
+    background-color: aqua;
+}
+.promo{
+    position: fixed;
+    top: 250px;
+    right: 20 px;
+    background-color: #fff;
+    border: 2px solid #850AE5;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+
+}
+h1 ::before{
+    display: inline-block;
+    vertical-align: middle;
+    width: 30px;
+    height: 30px;
+    content: url(https://img.freepik.com/free-photo/elegant-smartphone-composition_23-2149437105.jpg?t=st=1738402832~exp=1738406432~hmac=cee0b9cb51c1cc4aaa5dc668e4e8b9204749c642e9a79a1b7e66016bcabbd4ae&w=360);
+    background-image: url("https://img.freepik.com/free-vector/two-storey-house_1308-16176.jpg?t=st=1739005072~exp=1739008672~hmac=cc2b48a80a6fa2e20b0cc7feabf9c90e32700055f28b5db3d2b23b3c3a6fd4b5&w=740");
+}
+h1 ::after{
+    content: "'";
+    display: inline-block;
+    vertical-align: middle;
+    width: 30px;
+    height: 30px;
+    background-image: url("https://img.freepik.com/free-vector/two-storey-house_1308-16176.jpg?t=st=1739005072~exp=1739008672~hmac=cc2b48a80a6fa2e20b0cc7feabf9c90e32700055f28b5db3d2b23b3c3a6fd4b5&w=740");
+}
